@@ -1,0 +1,149 @@
+body {
+        position:           fixed; 
+        padding:            0;
+        margin:             auto;
+        border-width:       0px;
+        font-family:        Arial;
+        font-size:          18px;
+        width:100%;
+        min-width:600px;
+        max-width:2000px;
+        
+}
+
+body.night-mode {
+  background-color: #1D1F20;
+  color: #FFF;
+}
+body.night-mode h2 {
+  color: #FFF;
+}
+
+body.light-mode {
+  background-color: #fafafa;
+  color: #111;
+}
+body.light-mode h2 {
+  color: #111;
+}
+
+#screen-mode {
+  position: fixed;
+  right: 2rem;
+  top: 1rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+nav h1 {
+        color:     #FFFFFF;
+        text-align: center;
+        margin-top: 20px;
+}
+
+nav#Bandeau {
+        position:           fixed;
+        top:                0;
+        background:         rgba(1,137,76,1);
+        height:             75px;
+        width:              100%;
+        z-index:            10;
+        /*border:             5px solid #01894C;*/
+        /*padding:            0px;*/
+        text-align:         center;  /*permet de centrer le contenu - ici les <dl> rendu en inline-block*/
+        transition-property:   height;
+        transition-duration:      0.5s;
+        min-width: 700px;
+        max-width: 2000px;
+}
+
+/*div#sensor-list {
+        position:   fixed;
+        height:     100%;
+        width:      15%;
+        background: #616161;
+        z-index:    9;
+        margin-left: 85%;
+        margin-top:  -0.1%;
+}*/
+
+
+#mapLannion {
+    position: fixed;
+    margin-top: 32px;
+    margin-left: 27px;
+    height: 835px;
+    width: 1080px;
+    box-shadow:        0 1px 2px 1px #FFF;
+}
+
+div h2 {
+    margin-left: 850px;
+    margin-top: 50px;
+}
+
+* {
+    transition: all .2s ease-in;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    z-index:            11;
+}
+
+.sidenav h1 {
+    margin-left: 21px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFF;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a {
+    color: #818181;
+    font-size: 15px;
+    padding: 8px 8px 8px 86px;
+    display: block;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    position: fixed;
+    font-size:30px;
+    cursor:pointer;
+    margin-left: -953px;
+    margin-top: -58px;
+}
+
+.sensorData {
+    right: 50x;
+    left: 1150px;
+    top: 110px;
+    position: fixed;
+    z-index: 12;
+    
+}
+
+.sensorData a {
+    color: #818181;
+    font-size: 25px;
+    display: block;
+} 

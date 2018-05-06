@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="Style.css">
+        <link rel="stylesheet" type="text/css" href="Styles/Style.css">
          <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin=""/>
           <!-- Make sure you put this AFTER Leaflet's CSS -->
-          <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
-          <script src="Script.js"></script>
+         <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
+          integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+           crossorigin=""></script>
+          <script src="Script/Script.js"></script>
+          
         <title>StatRoute</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,6 +20,7 @@
         <h1> Carte de Lannion </h1>
       </nav>
       <div id="mapLannion">
+        <script src="Script/ScriptMapLannion.js"></script>
          
       </div>
       <div id="sensor-list" class="sidenav">
